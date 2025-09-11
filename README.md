@@ -1,5 +1,5 @@
 
-The Vehicle Parking Management System is developed to provide a simple web-based solution for managing vehicle parking records. 
+The Vehicle Parking Management System is a web-based application designed to manage vehicle parking records efficiently. The admin can manually update parking lot availability, which is then reflected on the user dashboard. Users can view available spots and book or vacate them as needed.
 
 ✨ Features
 
