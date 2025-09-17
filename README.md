@@ -77,4 +77,3 @@ Secure login (Flask-Login/Flask-Security integration)
 
 Enhanced styling and user experience
 
-NOTE: This project is a part of my Modern Application development-1 curriculum
