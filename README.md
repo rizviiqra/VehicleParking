@@ -1,28 +1,11 @@
 
-The Vehicle Parking Management System is a web-based application designed to manage vehicle parking records efficiently. The admin can manually update parking lot availability, which is then reflected on the user dashboard. Users can view available spots and book or vacate them as needed.
-
-✨ Features
-
-User Authentication – Secure login and signup system.
-
-User Dashboard – Allows users to view their parking history and slot status and the list of available slots.
-
-Vehicle Entry/Exit Records – Register vehicles when they enter and exit.
-
-Parking Slot Management – Track available and occupied parking slots.
-
-Data Visualization – Display parking usage statistics and summaries with interactive charts (Chart.js).
-
-Admin Dashboard – Manage vehicles, slots, and view analytical reports.
-
-Database Integration – Store and retrieve data using SQLite.
-
+The Vehicle Parking Management System is a web-based application designed to manage vehicle parking records efficiently.
 
 🛠 Tech Stack
 
 Backend: Flask (Python)
 
-Frontend: HTML, CSS, Bootstrap
+Frontend: HTML, CSS, Bootstrap, Jinja2
 
 Database: SQLite
 
@@ -30,4 +13,68 @@ Visualization: Chart.js
 
 APIs: Used for handling data operations
 
-(This project is a part of my Modern Application development-1 curriculum)
+📌Roles & Functionalities
+
+📌Admin (Superuser)
+
+Root access (no registration required, created with DB initialization)
+
+Create, edit, and delete parking lots
+
+Define maximum parking spots in a lot (spots are auto-generated)
+
+Assign different pricing for each lot
+
+View real-time status of all parking spots (available/occupied)
+
+View details of parked vehicles
+
+View and manage all registered users
+
+Summary dashboards & charts for parking usage
+
+📌User
+
+Register & login
+
+Choose an available parking lot
+
+Automatically allocated the first available parking spot (users cannot select spots manually)
+
+Reserve and release spots (updates spot status between Available ↔ Occupied)
+
+Timestamps for parking in/out are recorded
+
+View personal parking history & cost summary
+
+Access charts summarizing their parking activity
+
+📌Core Features
+
+Multi-role login (Admin/User)
+
+Parking lot & spot management system
+
+Automatic parking spot allocation
+
+Parking reservation with entry/exit timestamps
+
+Dynamic dashboards for Admin and Users
+
+Summary charts for insights (powered by Chart.js)
+
+Fully responsive UI with Bootstrap
+
+Database created and initialized programmatically
+
+📌Extended Features
+
+API resources for interaction with lots, spots, or users (Flask-RESTful / JSON responses)
+
+Frontend + backend form validations
+
+Secure login (Flask-Login/Flask-Security integration)
+
+Enhanced styling and user experience
+
+NOTE: This project is a part of my Modern Application development-1 curriculum
