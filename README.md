@@ -1,5 +1,5 @@
 
-The Vehicle Parking Management System is a web-based application designed to manage vehicle parking records efficiently.
+The Vehicle Parking Management System is an academic/demo web-based application designed to manage vehicle parking records efficiently.
 
 🛠 Tech Stack
 
