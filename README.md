@@ -1,7 +1,7 @@
 
 The Vehicle Parking Management System is an academic/demo web-based application designed to manage vehicle parking records efficiently.
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 
 Backend: Flask (Python)
 
@@ -13,9 +13,9 @@ Visualization: Chart.js
 
 APIs: Used for handling data operations
 
-📌Roles & Functionalities
+# Roles & Functionalities
 
-📌Admin (Superuser)
+### 📌Admin (Superuser)
 
 Root access (no registration required, created with DB initialization)
 
@@ -33,7 +33,7 @@ View and manage all registered users
 
 Summary dashboards & charts for parking usage
 
-📌User
+### 📌User
 
 Register & login
 
@@ -49,7 +49,7 @@ View personal parking history & cost summary
 
 Access charts summarizing their parking activity
 
-📌Core Features
+### 📌Core Features
 
 Multi-role login (Admin/User)
 
@@ -67,7 +67,7 @@ Fully responsive UI with Bootstrap
 
 Database created and initialized programmatically
 
-📌Extended Features
+### 📌Extended Features
 
 API resources for interaction with lots, spots, or users (Flask-RESTful / JSON responses)
 
