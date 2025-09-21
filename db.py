@@ -103,10 +103,10 @@ def init_db():
 
 if __name__ == '__main__':
     # This block runs only when db.py is executed directly
-    # You might want to delete the old database file for a clean start during development
     if os.path.exists(database):
         os.remove(database)
         print(f"Existing database '{database}' removed for a clean start.")
     
     init_db()
+
 
