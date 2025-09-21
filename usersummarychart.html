@@ -81,9 +81,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-// Add this code inside your existing <script> tag,
-// within the 'DOMContentLoaded' event listener.
-
 // Fetch data for the monthly costs bar chart
 fetch('/api/usermonthlycost')
     .then(response => response.json())
@@ -119,5 +116,6 @@ fetch('/api/usermonthlycost')
     });
     
 </script>
+
 
 {% endblock %}
