@@ -129,9 +129,6 @@ def userdashboard():
     ''').fetchall()
     
     conn.close()
-    
-    # Pass both active_booking and lots to the template
-    # One of them will be None/empty, and the template's 'if' statement will handle it.
     return render_template('userdashboard.html', active_booking=active_booking, lots=lots)
 
 @app.route('/api/mostusedlot')
@@ -448,9 +445,6 @@ def createlot():
             conn.rollback()
         finally:
             conn.close()
-
-    # For a GET request, you would normally show a form.
-    # Since we are creating dummy pages, we'll just return a simple message.
     return render_template('createlot.html')
 
 @app.route('/admin/deletelot/<int:lot_id>', methods=['POST'])
@@ -524,4 +518,5 @@ def add_header(response):
 if __name__ == '__main__':
     init_db()
     app.run(debug=True)
+
 
