@@ -11,9 +11,6 @@
 
 The Vehicle Parking Management System is a full-stack, academic/demo web application designed to efficiently manage vehicle parking workflows. It supports both Admin and User roles, enabling creation and monitoring of parking lots, automated spot allocation, and parking activity tracking. The system features secure authentication, dynamic dashboards, and interactive analytical charts to enhance usability and provide meaningful insights.
 
-<img width="1897" height="901" alt="image" src="https://github.com/user-attachments/assets/3a4cdebf-c301-46e4-aef7-a7dc8fbb072e" />
-
-
 # Installation and Setup
 
 ```bash
@@ -114,11 +111,11 @@ Enhanced styling and user experience
 
 # Screenshots
 
+<img width="1897" height="901" alt="image" src="https://github.com/user-attachments/assets/3a4cdebf-c301-46e4-aef7-a7dc8fbb072e" />
+
 <img width="1902" height="893" alt="image" src="https://github.com/user-attachments/assets/0f7fc547-14de-466a-90c1-0b5e0df449c6" />
 
 <img width="1885" height="904" alt="image" src="https://github.com/user-attachments/assets/6e77ebd9-f238-45af-9a69-f54739b58fab" />
-
-<img width="1853" height="926" alt="image" src="https://github.com/user-attachments/assets/c64944ff-0e74-411c-b1da-3ca0c28d06a8" />
 
 <img width="1899" height="891" alt="image" src="https://github.com/user-attachments/assets/90a026a5-0773-4d4c-ab5d-1982d1e588aa" />
 
