@@ -16,7 +16,7 @@ The Vehicle Parking Management System is a full-stack, academic/demo web applica
 ```bash
 # Clone repository
 git clone https://github.com/rizviiqra/VehicleParking
-cd repo-name
+cd VehicleParking
 
 # Create virtual environment
 python -m venv venv
